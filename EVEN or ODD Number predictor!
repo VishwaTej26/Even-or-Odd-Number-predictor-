@@ -1,0 +1,8 @@
+# Here is an even or odd number predictor tool by me!
+this = int(input("Enter the number:"))
+print(this)
+
+if this % 2 == 0:
+    print("Your number is", this,"so its an even number. Thank you for using :)")
+else:
+    print("Your given number is", this,"so its an odd number. Thank you for using !" )
